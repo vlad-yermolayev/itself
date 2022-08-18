@@ -167,6 +167,7 @@ table {
 .menu-button:hover {
   color: #18B5DC;
   border-color: #18B5DC;
+  background-color: #18B5DC;
 }
 .menu-button:hover span {
   background-color: #18B5DC;
@@ -211,6 +212,10 @@ table {
   color: #18B5DC;
 }
 
+body {
+  background-color: #3C3C3C;
+}
+
 .header {
   min-height: 80px;
   display: flex;
@@ -220,7 +225,7 @@ table {
 .header .container {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .header__logo {
